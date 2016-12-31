@@ -4,10 +4,10 @@ $_config = array (
   'version' => '1.14.6.2',
   'db' => 
   array (
-    'server' => '127.7.204.130',
+    'server' => OPENSHIFT_MYSQL_DB_HOST,
     'port' => 3306,
-    'username' => 'adminyRTu5qJ',
-    'password' => 'Zp9jiUXnXHGe',
+    'username' => OPENSHIFT_MYSQL_DB_USERNAME,
+    'password' => OPENSHIFT_MYSQL_DB_PASSWORD,
     'name' => 'sign',
     'pconnect' => true,
   ),
